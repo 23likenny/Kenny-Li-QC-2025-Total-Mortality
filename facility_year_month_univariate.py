@@ -2,7 +2,14 @@ import pandas as pd
 import numpy
 import os
 
-states = ["West Virginia"]
+states = ["Alabama", "Alaska", "Arizona", "Arkansas", "BOP", "California", "Colorado",
+          "Connecticut", "Delaware", "Florida", "Georgia", "Hawaii", "Idaho", "Illinois",
+          "Indiana", "Iowa", "Kansas", "Kentucky", "Louisiana", "Maine", "Maryland",
+          "Massachusetts", "Michigan", "Minnesota", "Mississippi", "Missouri", "Montana",
+          "Nebraska", "Nevada", "New Hampshire", "New Jersey", "New Mexico", "New York",
+          "North Carolina", "North Dakota", "Ohio", "Oklahoma", "Oregon", "Pennsylvania",
+          "Rhode Island", "South Carolina", "South Dakota", "Tennessee", "Texas", "Utah",
+          "Vermont", "Virginia", "Washington", "Wisconsin", "Wyoming"]
 
 important_variables = [
     'custody_49under', 'custody_50to64', 'custody_65over', 'custody_18to24', 'custody_25to44',
